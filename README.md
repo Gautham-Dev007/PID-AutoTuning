@@ -18,15 +18,14 @@ This project implements a temperature control system using an Arduino microcontr
 ## Hardware Requirements
 - **Arduino Board**: Any Arduino compatible board (e.g., Uno, Nano, Mega).
 - **DS18B20 Temperature Sensor**: Connected via OneWire protocol (digital pin 9).
-- **Heater**: Controlled via a relay, transistor, or SSR (connected to pin 13).
+- **Heater**: 2x 10kΩ,10W resistors in parallel.
 - **Pull-up Resistor**: 4.7kΩ resistor between the DS18B20 data line and 5V.
-- **Power Supply**: Suitable for your heater and Arduino.
 
 ### Wiring
 | Component         | Arduino Pin | Notes                          |
 |-------------------|-------------|--------------------------------|
 | DS18B20 Data      | 9           | 4.7kΩ pull-up to 5V required  |
-| Heater Control    | 13          | Via relay/SSR/transistor       |
+| Heater Control    | 13          | MOC3041 opto driven through 330 Ohm resistor to turn ON BT139 TRIAC |
 | DS18B20 VCC       | 5V          |                                |
 | DS18B20 GND       | GND         |                                |
 
