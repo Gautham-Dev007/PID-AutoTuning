@@ -1,4 +1,3 @@
-```markdown
 # Arduino Temperature Control System
 
 This project implements a temperature control system using an Arduino microcontroller with a Dallas DS18B20 temperature sensor and a heater controlled via PWM. It supports both manual PI (Proportional-Integral) control and an automated Ziegler-Nichols autotuning process to optimize control parameters. The system saves tuning data and setpoint values to EEPROM for persistence across power cycles.
@@ -48,47 +47,3 @@ Install these libraries via the Arduino Library Manager:
 1. Clone or download this repository:
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
-   ```
-2. Open the `.ino` file in the Arduino IDE.
-3. Connect your Arduino board to your computer via USB.
-4. Select your board and port under `Tools` in the Arduino IDE.
-5. Upload the code to your Arduino.
-
-## Usage
-1. **Initial Setup**: Wire the hardware as described above.
-2. **Power On**: Connect the Arduino to power and open the Serial Monitor (9600 baud).
-3. **Monitor Output**: The system will display the current setpoint, temperature, duty cycle, and mode.
-4. **Commands**:
-   - Type `AUTOTUNE` to start the autotuning process.
-   - Type `PI` to switch to PI control using either default or autotuned parameters.
-   - Type `Sxx.x` (e.g., `S80.0`) to change the setpoint.
-   - Type `STOP` or `H0` to stop the system.
-5. **Autotune Results**: After autotuning completes, the system saves the calculated `Kp` and `Ki` values to EEPROM and uses them in PI mode.
-
-### Example Serial Output
-```
-Setpoint: 75.00, Temp: 25.50 C, Duty: 100%, Mode: AUTOTUNE
-Setpoint: 75.00, Temp: 76.20 C, Duty: 0%, Mode: PI, DT: 5000, RT: 8000, PT: 9000, ST: 15000, Kp: 12.50, Ki: 1.80
-```
-
-## Notes
-- **Default Setpoint**: 75.0°C (configurable via serial or stored in EEPROM).
-- **Safety**: Ensure proper heat sinking and safety mechanisms for the heater to prevent overheating.
-- **Tuning**: Autotuning requires the system to oscillate, so monitor it closely during this phase.
-
-## Contributing
-Feel free to submit issues or pull requests if you have suggestions or improvements!
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-```
-
-### Customization Tips
-1. **Repository Name**: Replace `yourusername/your-repo-name` with your actual GitHub username and repository name.
-2. **License**: If you want a different license (e.g., GPL, Apache), update the `License` section and add a `LICENSE` file to your repository.
-3. **Additional Sections**: Add sections like "Troubleshooting" or "Future Improvements" if needed.
-4. **Images**: You could add a wiring diagram or photo of your setup by including a line like `![Wiring Diagram](wiring_diagram.png)` and uploading the image to your repo.
-
-Let me know if you'd like help refining this further!
