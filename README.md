@@ -38,7 +38,7 @@ Contains the Arduino firmware for:
 - Serial communication with the Python GUI.
 
 [**Go to Arduino-Code Branch**](
-https://github.com/yourusername/Arduino-Temperature-Control/tree/Arduino-Code)
+https://github.com/Gautham-Dev007/PID-AutoTuning/tree/Arduino-Code)
 
 ### Python-GUI Branch
 Contains the Python script for:
@@ -47,7 +47,7 @@ Contains the Python script for:
 - Safety alerts and data logging to Excel.
 
 [**Go to Python-GUI Branch**](
-https://github.com/yourusername/Arduino-Temperature-Control/tree/Python-GUI)
+https://github.com/Gautham-Dev007/PID-AutoTuning/tree/Python-GUI)
 
 ## How to Contribute
 - Fork the repository.
