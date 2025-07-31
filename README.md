@@ -104,13 +104,3 @@ pip install pyserial matplotlib pandas openpyxl
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ```
-
-### How to Use This Markdown File
-1. **Save as `README.md`**: Copy this content into a file named `README.md` in your project directory.
-2. **Replace Image URLs**: Capture the screenshots listed above, upload them to your GitHub repository (e.g., in a `screenshots/` folder) or an external host (e.g., Imgur), and update the placeholder URLs:
-   - GitHub example: `https://raw.githubusercontent.com/yourusername/arduino-temperature-control-gui/main/screenshots/main_interface.png`
-   - External example: Use the direct image link from your hosting service.
-3. **Update Repository URL**: Replace `https://github.com/yourusername/arduino-temperature-control-gui.git` with your actual repository URL.
-4. **Add a License File**: If using the MIT License, create a `LICENSE` file with the MIT License text.
-
-This version provides a concise yet comprehensive overview with ample visual documentation opportunities. Let me know if you'd like further adjustments!
