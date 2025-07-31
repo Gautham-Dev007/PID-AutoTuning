@@ -105,13 +105,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ```
 
-### Additional Image Placeholders
-I've added the following new image placeholders to enrich your README:
-- **Setpoint Confirmation Dialog**: Shows the high setpoint (>80°C) confirmation prompt.
-- **E-Stop Indicator**: Highlights the green/red status indicator separately.
-- **Test Mode Interface**: Displays the GUI with test mode activated and options visible.
-- **Excel Data Output**: Provides a visual of the logged data in Excel.
-
 ### How to Use This Markdown File
 1. **Save as `README.md`**: Copy this content into a file named `README.md` in your project directory.
 2. **Replace Image URLs**: Capture the screenshots listed above, upload them to your GitHub repository (e.g., in a `screenshots/` folder) or an external host (e.g., Imgur), and update the placeholder URLs:
