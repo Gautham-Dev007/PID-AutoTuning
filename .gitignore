@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# GUI data logs
+*.xlsx
+
+# Arduino / editor
+build/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
